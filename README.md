@@ -1,15 +1,15 @@
-## Your Name
+## Michael Kielstra
 
 Welcome to my website!
 
 ### Added Feature #1
 
-Description
+Menu in "Hire me" section that allows viewers to select what they want to hire me to do.
 
-Screenshots
+I'll do screenshots later.
 
 ### Added Feature #2
 
-Description
+Button in "Experience" section to only show interesting experience.
 
-Screenshots
+I'll do screenshots later.
