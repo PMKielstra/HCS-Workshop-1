@@ -1,19 +1,17 @@
 import React from "react";
 import "./Experience.css";
+import HideBoring from "../../components/HideBoring/HideBoring";
 
 export default function ExperienceScreen() {
   return (
     <div className="screen-background">
-      <div className="experience-background">
-        <div className="timeline-background">
-          this is where the timeline will go
-        </div>
-        <div className="highlight-background">
-          <h1>this is where the selected experience will go</h1>
-          <p>all the date information about the selected experience!</p>
-          <h4>description of the selected experience</h4>
-        </div>
-      </div>
+      <ul id="experiencelist">
+        <li className="boring">Math degree from Harvard</li>
+        <li>HackHarvard head of design for like ten minutes</li>
+        <li>Harvard Independent comp director, staff writer, and webmaster</li>
+        <li className="boring">Speaks French</li>
+      </ul>
+      <HideBoring boringclass="boring" />
     </div>
   );
 }

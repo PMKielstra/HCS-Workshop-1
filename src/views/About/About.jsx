@@ -1,18 +1,11 @@
 import React from "react";
 import "./About.css";
-import CutePic from "../../assets/bighappy.png";
 
 export default function AboutScreen() {
   return (
     <div className="screen-background">
       <div className="intro-background">
-        <div className="intro-item">
-          <div>here you'll put a picture of yourself</div>
-        </div>
-        <div className="intro-item">
-          Wow wow wow Your Name is a pretty cool person! check out all these
-          details
-        </div>
+        This is my PoRtFoLiO for the HCS comp.  I'd tell you not to take it too seriously, but I believe too much in the essential liberty of the people to tell you to do anything.
       </div>
     </div>
   );

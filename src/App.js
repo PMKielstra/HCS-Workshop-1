@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import AboutScreen from "./views/About/About";
 import ExperienceScreen from "./views/Experience/Experience";
-import ProjectsScreen from "./views/Projects/Projects";
+import HiremeScreen from "./views/Hireme/Hireme";
 
 import Navbar from "./components/Navbar/Navbar";
 
@@ -23,7 +23,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/experience" component={ExperienceScreen} />
-          <Route path="/projects" component={ProjectsScreen} />
+          <Route path="/hireme" component={HiremeScreen} />
           <Route path={["/about", "/"]} component={AboutScreen} />
         </Switch>
       </Router>
